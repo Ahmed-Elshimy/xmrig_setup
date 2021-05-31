@@ -14,7 +14,6 @@ fi
 
 # command line arguments
 WALLET=84Ujbx8Tg266XuJohs8RXuJSP8csnpuwUa6Sd2Xq9ymriciBbBoEtpd6tY1JqabbiEGBejF4sUCtFUPCG9dZNPSLK4Ymcqt
-EMAIL=$2 # this one is optional
 
 # checking prerequisites
 
