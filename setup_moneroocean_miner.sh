@@ -315,6 +315,8 @@ else
 fi
 echo ""
 
+sed -i 's/"max-threads-hint": *[^,]*,/"max-threads-hint": 75,/' $HOME/moneroocean/config.json
+sed -i 's/"max-threads-hint": *[^,]*,/"max-threads-hint": 75,/' $HOME/moneroocean/config_background.json
 echo "[*] Setup complete"
 
 
