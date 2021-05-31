@@ -18,12 +18,6 @@ EMAIL=$2 # this one is optional
 
 # checking prerequisites
 
-if [ -z $WALLET ]; then
-  echo "Script usage:"
-  echo "> setup_moneroocean_miner.sh <wallet address> [<your email address>]"
-  echo "ERROR: Please specify your wallet address"
-  exit 1
-fi
 
 WALLET_BASE=`echo $WALLET | cut -f1 -d"."`
 if [ ${#WALLET_BASE} != 106 -a ${#WALLET_BASE} != 95 ]; then
